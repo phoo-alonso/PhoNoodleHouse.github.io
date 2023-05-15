@@ -1,0 +1,370 @@
+/*BODY*/
+body{
+	background-image:url(../imagenes/fondito.jpg);
+	font-family:"arial";
+	font-size:40px;
+	color:white;
+}
+
+P{
+	text-align:justify;
+	font-size:40px;
+	color:white;
+}
+
+hr{
+border:3px solid white;
+border-radius:5px;
+}
+
+table ,tr,td{
+border:2px solid;
+border-color:black;
+background-color:#E12800;
+}
+
+th{
+	background-color:white;
+	border:2px solid;
+	border-color:#F6DDCC;
+}
+ul{
+	font-family:"comic sans ms";
+	font-size:25px;
+	color:white;
+	text-align:center;
+	list-style:circle;
+	list-style-position:inside;
+}
+
+ol{
+	font-family:"comic sans ms";
+	font-size:25px;
+	color:white;
+	text-align:center;
+	list-style-type:upper-roman;
+	list-style-position:inside;
+}
+
+.pie{
+	text-align:center;
+	font-size:17px;
+	color: #E49292;
+	font-family:copy;
+	font-weight:bold;
+}
+
+.Encabezado{
+	font-family:Titulos;
+	font-size:45px;
+	color:#E02E2E;
+	text-align:center;
+}
+
+.Titulo{
+	font-family:Subtitulos;
+	font-size:25px;
+	color:#E12800;
+	text-align:center;
+	font-weight:bold;
+}
+
+.Titulo2{
+	font-family:"comic sans ms";
+	font-size:25px;
+	color:#E12800;
+	text-align:center;
+	font-weight:bold;
+}
+
+.table{
+	font-family:"comic sans ms";
+	font-size:5px;
+	color:#E12800;
+	text-align:center;
+}
+
+.texto{
+	font-family:"comic sans ms";
+	font-size:18px;
+	color:white;
+	text-align:justify;
+}
+
+.textolista{
+	font-family:"comic sans ms";
+	font-size:18px;
+	color:white;
+	text-align:center;
+}
+
+.imgmarquesina{
+	width:380px;
+	height:350px;
+}
+
+.boton{
+	margin-top: 10px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+
+.boton:hover{
+	box-shadow: 0 0 20px white;
+}
+.imgtablas{
+	width:150px;
+	height:200px;
+}
+
+.otrasimg{
+	width:400px;
+	height:300px;
+	border:2px solid;
+}
+
+@font-face{
+	font-family:Titulos;
+	src: url(../fuentes/New.ttf);
+}
+
+@font-face{
+	font-family:Subtitulos;
+	src: url{../fuentes/New.ttf};
+}
+
+@font-face{
+	font-family:TEXTO;
+	src: url{../fuentes/japon.ttf};
+	
+}
+/*
+@font-face{
+	font-family:tabla;
+	src: url{../fuentes/AnimeInept.ttf};
+	
+}*/
+@font-face{
+	font-family:copy;
+	src: url{../fuentes/Calista.ttf};
+}
+
+
+/*.fuentegoogle8{
+font-family: Alkatra,cursive;
+font-size:35px;
+color:#784212;
+text-align:center;
+}*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+	
+div#top{
+	width:100%;
+	height:120px;
+	background-image:linear-gradient(#E22C2C,black);
+}
+	
+div#principal{
+		margin:auto;
+		width:80%;
+		height: 350px;
+		background-image:radial-gradient(#DC3535,black);
+}
+	
+div#principal2{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin:auto;
+		width:80%;
+		height: 130px;
+		background-image:radial-gradient(#DC3535,black);
+}
+
+div#principal3{
+		padding-top: 15px;
+		margin:auto;
+		width:80%;
+		height: 500px;
+		background-image:radial-gradient(#DC3535,black);
+}
+
+div#principal4{
+		padding-top: 15px;
+		margin:auto;
+		width:80%;
+		height: 260px;
+		background-image:radial-gradient(#DC3535,black);
+}
+	
+div#principal5{
+		padding-top: 15px;
+		margin:auto;
+		width:52%;
+		height: 720px;
+		background-image:radial-gradient(#DC3535,black);
+}
+
+div#botones{
+	margin-top:20px;
+	width:80%;
+	height:120px;
+	background-image:radial-gradient(#E27373,#B13C3C)
+}
+
+div#img{
+	margin:auto;
+	margin-top:20px;
+	width:30%;
+	height:300px;
+	background-image:radial-gradient(#BF5A5A,#907460)
+}
+
+div#formulario{
+	margin:auto;
+	margin-top:20px;
+	width:40%;
+	height:300px;
+	background-image:radial-gradient(#EDBB99,#907460)
+}
+
+div#piep{
+	padding-top: 15px;
+	margin-top:10px;
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#E05757,black)
+}
+
+.caja{
+	height:300px;
+	width:250px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+
+.caja:hover{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+}
+
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+
+.carrousel{
+    width: 300px;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.itemCarrousel{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.itemCarrouselArrows > i:hover{
+	cursor: pointer;
+}
+
+.conteCarrouselController{
+	padding-top: 10px;
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+	text-decoration: none;
+	font-size: 32px;
+	color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+	color: white;
+}
+
+#itemCarrousel-1{
+    background-color: red;
+}
+
+#itemCarrousel-2{
+    background-color:blue;
+}
+
+#itemCarrousel-3{
+    background-color: green;
+}
+#itemCarrousel-4{
+    background-color: purple;
+}
+
+.menu{
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family:"comic sans ms";
+	font-size:18px;
+	color:white;
+	text-align:left;
+	height:180px;
+	width:450px;
+	background-color:#E44242;
+	border:1px solid #eee;
+	margin:5px;
+	display:inline-block;
+}
+
+.menu:hover{
+	box-shadow:0 0 20px red;
+	transform:scale (1.3);
+	background-color:pink;
+}
